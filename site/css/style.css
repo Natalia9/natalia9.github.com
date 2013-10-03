@@ -1,0 +1,121 @@
+@import url('reset.css'); 
+@import url('typography.css');
+
+body {
+ background-color: #f8f8f8;
+ margin: auto;
+ width: 100%;
+ }
+ 
+div#status-bar {
+ background: url('../img/status-bar-bg.png') repeat-x;
+ border-bottom: 1px groove #ffffff;
+ height: 40px;
+ width: 100%;
+ }
+div#status-bar-content {
+ margin: 10px auto 0px auto;
+ width: 800px;
+ }
+div#status-bar-commands {
+ width: 400px;
+ }
+
+ form#search-form {
+ float: right;
+ width: 200px;
+ }
+
+p#welcome {
+ float:left; 
+ padding-top: 7px;
+ width: 150px;
+ }
+p#action-bar {
+ background: url('../img/action-bar-bg.png') no-repeat;
+ height: 14px;
+ margin-left:200px;
+ padding: 8px 28px;
+ width: 154px;
+ }
+ 
+ p#action-bar a:before { 
+ content: '| ';
+ }
+
+ p#action-bar a[title="License"]:after {
+ content: ' |';
+ }
+
+form#search-form input[type="text"] {
+ background: url(../img/search-field.png) no-repeat;
+ border:none;
+ height:20px;
+ padding: 5px 0px 0px 30px;
+ width:170px;
+ }
+
+ form#search-form input[type="submit"] {
+ display: none;
+ } 
+ 
+ div#header {
+background: url('../img/header-image.jpg') no-repeat;
+background-color: #6eb9cc;
+border-bottom: 2px ridge #ffffff;
+height: 250px;
+width: 100%;
+}   
+div#logo {
+margin: auto;
+padding-top: 35px;
+width: 800px;
+}
+div#content-top-shadow {
+background: url('../img/content-top-shadow.png') repeat-x;
+height: 20px;
+width: 100%;
+}
+div#content-bottom-shadow { 
+background: url('../img/content-bottom-shadow.png') repeat-x;
+clear: both;
+height: 20px;
+width: 100%;
+}
+
+div#content {
+margin: auto;
+padding-bottom: 50px;
+position: relative;
+width: 800px;
+}
+
+div#page-wrapper {
+background-color: #ffffff;
+border: 1px solid #bababa;
+clear: both;
+height: 233px;
+margin-top: 75px;
+overflow: hidden;
+padding: 15px;
+width: 768px;
+}
+div#slideshow {
+border-right: 1px solid #b2b2b2;
+float: left;
+padding-right: 15px;
+width: 375px;
+}
+div#slides {
+border: 1px solid #a7a7a7;
+height: 200px;
+width: 370px;
+}
+
+div#slides a.thumb {
+display:none;
+}
+
+div#slides a.default-slide {
+display:block;
+}
